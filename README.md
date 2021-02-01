@@ -1,5 +1,3 @@
-[! [license] [license-badge]] [LICENSE]
-
 ### Presentation
 
 This modification was developed in OCMOD format, and enables the order data to be sent to Google Analytics E-commerce.
@@ -49,6 +47,3 @@ Access the store administration and perform the Uninstall procedure, then perfor
 OCMOD (OpenCart Modification) is native to OpenCart, that is, it is not necessary to install any add-on in OpenCart to use modifications or extensions in the OCMOD format, for more information about OCMOD, follow the link for more information:
 
 https://github.com/opencart/opencart/wiki/Modification-System
-
-[license-badge]: https://img.shields.io/badge/licença-GPLv3-blue.svg
-[LICENSE]: ./LICENSE
