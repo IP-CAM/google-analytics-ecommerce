@@ -1,54 +1,54 @@
-[![license][licenca-badge]][LICENSE]
+[! [license] [license-badge]] [LICENSE]
 
-### Apresentação
+### Presentation
 
-Esta modificação foi desenvolvida no formato OCMOD, e habilita o envio dos dados do pedido para o Google Analytics E-commerce.
+This modification was developed in OCMOD format, and enables the order data to be sent to Google Analytics E-commerce.
 
-As informações são geradas baseadas nos dados dos pedidos que são concluídos na loja, sendo os dados enviados para o Google Analytics através da página de confirmação do pedido no checkout padrão do OpenCart.
+The information is generated based on the order data that is completed in the store, and the data is sent to Google Analytics through the order confirmation page in the standard OpenCart checkout.
 
-### Instalação
+### Installation
 
- 1. Acesse o link: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=22039.
- 2. Localize a versão mais atual e compatível com sua versão do OpenCart e faça o download.
- 3. Na administração da loja acesse o menu Extensões→Instalador (Extensions→Installer).
- 4. Na página do instalador, clique no botão Upload, selecione o arquivo 'google-analytics-ecommerce.ocmod.zip' (que você baixou deste repositório), e aguarde a conclusão da instalação automática.
- 5. Após a instalação, acesse o menu Extensões→Modificações (Extensions→Modifications), e clique no botão Atualizar (Refresh), para que a modificação instalada seja incrementada na loja, lembrando que não é o botão "Atualizar" do navegador, e sim o botão "Atualizar" na cor azul ao lado do botão laranja e vermelho na tela do próprio OpenCart.
+ 1. Access the link: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=22039.
+ 2. Find the most current version and compatible with your version of OpenCart and download it.
+ 3. In the store administration, access the menu Extensions → Installer (Extensions → Installer).
+ 4. On the installer page, click the Upload button, select the 'google-analytics-ecommerce.ocmod.zip' file (which you downloaded from this repository), and wait for the automatic installation to complete.
+ 5. After installation, access the Extensions → Modifications menu, and click the Refresh button, so that the installed modification is incremented in the store, remembering that it is not the "Update" button of the browser, and yes the "Update" button in blue color next to the orange and red button on the OpenCart screen.
 
-### Utilização
+### Usage
 
-- No OpenCart até a versão 2.0.3.1:
+- In OpenCart up to version 2.0.3.1:
 
-Para que as informações sejam enviadas ao Google Analytics, o código gerado em sua conta no Google Analytics deve ser adicionado na loja através do menu Configurações→Lojas (System→Settings), aba "Servidor" (Server), e no campo "Código do Google Analytics" (Google Analytics Code), adicione o código e clique no botão "Salvar" (Save).
+In order for the information to be sent to Google Analytics, the code generated in your Google Analytics account must be added to the store through the menu Settings → Stores (System → Settings), tab "Server" (Server), and in the field "Customer Code" Google Analytics "(Google Analytics Code), add the code and click the" Save "button.
 
-- No OpenCart da versão 2.1.0.1 até 2.2.0.0:
+- In OpenCart from version 2.1.0.1 to 2.2.0.0:
 
-Para que as informações sejam enviadas ao Google Analytics, o código gerado em sua conta no Google Analytics deve ser habilitado na loja através do menu Extensões→Estatísticas (Extension→Analytics), localize a extensão "Google Analytics", clique no botão "Instalar" (Install), depois no botão "Editar" (Edit), adicione o código, habilite a extensão e clique no botão "Salvar" (Save).
+In order for the information to be sent to Google Analytics, the code generated in your Google Analytics account must be enabled in the store through the menu Extensions → Statistics (Extension → Analytics), locate the extension "Google Analytics", click the "Install" button (Install), then the "Edit" button, add the code, enable the extension and click the "Save" button.
 
-- No OpenCart da versão 2.3.0.0 até 3.0.x:
+- In OpenCart from version 2.3.0.0 to 3.0.x:
 
-Para que as informações sejam enviadas ao Google Analytics, o código gerado em sua conta no Google Analytics deve ser habilitado na loja através do menu Extensões→Extensões e filtre por Estatísticas (Extension→Extension filter Analytics), localize a extensão "Google Analytics", clique no botão "Instalar" (Install), depois no botão "Editar" (Edit), adicione o código, habilite a extensão e clique no botão "Salvar" (Save).
+For the information to be sent to Google Analytics, the code generated in your Google Analytics account must be enabled in the store through the menu Extensions → Extensions and filter by Statistics (Extension → Extension filter Analytics), locate the extension "Google Analytics", click the "Install" button, then the "Edit" button, add the code, enable the extension and click the "Save" button.
 
-#### Importante:
+#### Important:
 
-Para que você possa visualizar os dados dos pedidos enviados para o Google Analytics, você deve habilitar o serviço de Comércio Eletrônico, para isso, acesse sua conta no Google Analytics e clique na aba "Administrador", opção "VISTA DA PROPRIEDADE", menu "Visualizar configurações", submenu "Configurações de comércio eletrônico", e habilite o campo "Ativar comércio eletrônico".
+In order for you to be able to view the order data sent to Google Analytics, you must enable the Ecommerce service, for that, access your account in Google Analytics and click on the "Administrator" tab, option "PROPERTY VIEW", menu " View settings ", sub-menu" E-commerce settings ", and enable the" Enable e-commerce "field.
 
-Para visualizar os dados do pedido, acesse sua conta no Google Analytics, e em "Relatórios", clique no menu "Conversões", submenu "Comércio Eletrônico".
+To view the order data, access your account in Google Analytics, and under "Reports", click on the "Conversions" menu, "Electronic Commerce" submenu.
 
-Leva em média 24 horas para que os dados enviados comecem a ser visualizados em sua conta.
+It takes an average of 24 hours for the data sent to start being viewed in your account.
 
-### Desinstalação
+### Uninstallation
 
-Para desinstalar a modificação, na administração da loja, acesse o menu Extensões→Modificações (Extensions→Modifications),  localize e selecione a modificação com o nome 'Google Analytics E-commerce para OpenCart', depois clique no botão Excluir (Delete), e no botão Atualizar (Refresh).
+To uninstall the modification, in the store administration, go to the menu Extensions → Modifications, locate and select the modification with the name 'Google Analytics E-commerce for OpenCart', then click the Delete button, and the Refresh button.
 
-### Atualização
+### Update
 
-Acesse a administração da loja e execute o procedimento de Desinstalação, depois execute o procedimento de Instalação.
+Access the store administration and perform the Uninstall procedure, then perform the Installation procedure.
 
-### Dúvidas
+### Doubts
 
-O OCMOD (OpenCart Modification) é nativo do OpenCart, ou seja, não é necessário instalar nenhum complemento no OpenCart para utilizar modificações ou extensões no formato OCMOD, para mais informações sobre o OCMOD, segue o link para mais informações:
+OCMOD (OpenCart Modification) is native to OpenCart, that is, it is not necessary to install any add-on in OpenCart to use modifications or extensions in the OCMOD format, for more information about OCMOD, follow the link for more information:
 
 https://github.com/opencart/opencart/wiki/Modification-System
 
-[licenca-badge]: https://img.shields.io/badge/licença-GPLv3-blue.svg
+[license-badge]: https://img.shields.io/badge/licença-GPLv3-blue.svg
 [LICENSE]: ./LICENSE
